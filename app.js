@@ -27,12 +27,19 @@ function sumAndMultiply (num1, num2, num3) {
   return [prob3sum, prob3multiply];
 }
 
+<<<<<<< HEAD
 
 var pTagFour = document.getElementById('ans-four')
 function sumArray (array1) {
   var arraytotal = 0;
   for (var i=0; i<array1.length; i++){
     arraytotal += array1[i]}
+=======
+// function sumArray (array1) {
+//   var arraytotal = 1;
+//   for (var i=0; i<array1.length; i++){
+//     arraytotal += array1[i];
+>>>>>>> 33d1ea540651104648f449cb2a6011257ef08c15
 //     console.table(array1)
 //     console.log(array1+ ' was passed in as an array of numbers, and '+ arraytotal + ' is their sum.')
   // }
