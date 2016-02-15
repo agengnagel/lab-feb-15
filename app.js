@@ -4,3 +4,9 @@ function sum () {
   var num2 = 7
   console.log('The sum of ' + num1 + ' and ' + num2 + ' equals ' + (num1 + num2));
 }
+
+function multiply () {
+  var num1 = 4
+  var num2 = 7
+  console.log('The product of ' + num1 + ' and ' + num2 + ' equals ' + (num1 * num2));
+}
