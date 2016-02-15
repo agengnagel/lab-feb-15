@@ -20,7 +20,7 @@
 // }
 
 // function sumArray (array1) {
-//   var arraytotal = 0;
+//   var arraytotal = 1;
 //   for (var i=0; i<array1.length; i++){
 //     arraytotal += array1[i];
 //     console.table(array1)
