@@ -19,11 +19,22 @@
 //   return [prob3sum, prob3multiply];
 // }
 
-function sumArray (array1) {
-  var arraytotal = 0
-  for (i=0; i<array1.length; arraytotal+=array1[i++]); {
-    console.table(array1)
-    console.log(array1+ ' was passed in as an array of numbers, and '+ arraytotal + ' is their sum.')
+// function sumArray (array1) {
+//   var arraytotal = 0;
+//   for (var i=0; i<array1.length; i++){
+//     arraytotal += array1[i];
+//     console.table(array1)
+//     console.log(array1+ ' was passed in as an array of numbers, and '+ arraytotal + ' is their sum.')
+//   }
+//   return arraytotal;
+// }
+
+function multiplyArray(array2) {
+  var arrayproduct = 0;
+  for (var i=0; i<array2.length; i++){
+    arrayproduct += array2[i];
+    console.table(array2)
+    console.log(array2+ ' have a product of '+ arrayproduct)
   }
-  return arraytotal;
+  return arrayproduct;
 }
